@@ -20,7 +20,7 @@ Run the client on the remote system
   python client.py
 ```
 
-Now enter any (terminal) comand from the server and you will get the output response of the given command back from the client
+Now enter any (terminal) command from the server and you will get the output response of the given command back from the client
 ## Author
 
 - [@iamajraj](https://www.github.com/iamajraj)
