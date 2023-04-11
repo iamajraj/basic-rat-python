@@ -26,7 +26,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 try:
                     client.sendall(command.encode('utf-8'))
                     # receive the response from the client
-                    client.settimeout(5)  # set timeout value to 1 second
+                    client.settimeout(5)  # set timeout value to 5 second
                     data = client.recv(1024)
                     if data:
                         print(
